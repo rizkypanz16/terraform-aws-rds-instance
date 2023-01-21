@@ -10,9 +10,10 @@ git clone https://github.com/rizkypanz16/terraform-aws-rds-instance.git
 ```
 <access_key>
 <secret_key>
-<sg-id>
-<subnet-id>
-<keypair-name>
+<db-user>
+<db-password>
+default-vpc-<db_subnet_group_name>
+sg-<security_group_id>
 ```
 - Init - Initialized terraform provider
 ```
