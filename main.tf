@@ -22,8 +22,8 @@ resource "aws_db_instance" "aws-rds" {
     identifier                  = "tf-dbrds"		# nama aws rds instance
     engine                      = "mariadb"			# database engine
     engine_version              = "10.6.10"			# database version
-    username                    = "<db_user>"
-    password                    = "<db_password>"
+    username                    = "<db_user>"       # rubah dengan database user yang ingin anda buat
+    password                    = "<db_password>"   # rubah dengan password database untuk user yang anda buat diatas
     port                        = "3306"			# database port
     instance_class              = "db.t2.micro"		# aws rds type instance
     allocated_storage           = 20				# ukuran storage aws rds
